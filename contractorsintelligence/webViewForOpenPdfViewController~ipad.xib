@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="webViewForOpenPdfViewController">
+            <connections>
+                <outlet property="indicatorWebview" destination="cak-i8-dSZ" id="LLG-fu-Fxx"/>
+                <outlet property="view" destination="iN0-l3-epB" id="JXM-pQ-dRM"/>
+                <outlet property="webview" destination="JWo-PC-Xza" id="e7q-yb-LpZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_practice_exams_iPad.png" translatesAutoresizingMaskIntoConstraints="NO" id="QwV-ry-shb">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="100"/>
+                </imageView>
+                <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JWo-PC-Xza">
+                    <rect key="frame" x="0.0" y="100" width="768" height="924"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="l49-U0-ULo"/>
+                    </connections>
+                </webView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cak-i8-dSZ">
+                    <rect key="frame" x="366" y="493" width="37" height="37"/>
+                    <color key="color" red="0.30196079611778259" green="0.66274511814117432" blue="0.86274516582489014" alpha="1" colorSpace="deviceRGB"/>
+                </activityIndicatorView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMa-9x-TmP">
+                    <rect key="frame" x="8" y="42" width="50" height="50"/>
+                    <state key="normal" image="icon_cancel_iPad.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnBack:" destination="-1" eventType="touchUpInside" id="4M2-sA-np2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_cancel_iPad.png" width="60" height="60"/>
+        <image name="title_practice_exams_iPad.png" width="768" height="101"/>
+    </resources>
+</document>

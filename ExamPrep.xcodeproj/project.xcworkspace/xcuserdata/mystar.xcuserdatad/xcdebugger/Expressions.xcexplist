@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[OnlionTestStep3ViewController btnNextQuestion:]:OnlionTestStep3ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ScrollViev.contentSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Demopractise LowAndBuss:]:Demopractise.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_test2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[OnlinTestStep2ViewController Test_ExamForDemo]:OnlinTestStep2ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_test_id1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[OnlionTestStep3ViewController Question_Fill]:OnlionTestStep3ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_txtQues.frame">
+            </PersistentString>
+            <PersistentString
+               value = "_TestArray3">
+            </PersistentString>
+            <PersistentString
+               value = "self.queAnsView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
